@@ -18,7 +18,7 @@ services:
     image: percona:latest
     environment:
       - MYSQL_DATABASE=cattr
-      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE_PASSWORD=password
     cap_add:
       - SYS_NICE
     volumes:
